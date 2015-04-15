@@ -1,0 +1,15 @@
+kernel/arch/x86/kernel/test_nx.ko:
+kernel/fs/aufs/aufs.ko:
+kernel/drivers/misc/bcm-lpm/bcm_bt_lpm.ko:
+kernel/drivers/usb/gadget/libcomposite.ko:
+kernel/drivers/usb/gadget/usb_f_acm.ko: kernel/drivers/usb/gadget/libcomposite.ko kernel/drivers/usb/gadget/u_serial.ko
+kernel/drivers/usb/gadget/u_serial.ko:
+kernel/drivers/usb/gadget/g_multi.ko: kernel/drivers/usb/gadget/libcomposite.ko
+kernel/drivers/media/v4l2-core/videobuf2-core.ko:
+kernel/drivers/media/v4l2-core/videobuf2-memops.ko:
+kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko: kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/usb/uvc/uvcvideo.ko: kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko kernel/drivers/media/v4l2-core/videobuf2-memops.ko kernel/drivers/media/v4l2-core/videobuf2-core.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko:
+kernel/drivers/staging/iio/trigger/iio-trig-sysfs.ko:
+kernel/net/mac80211/mac80211.ko:
+extra/bcm4334x.ko:
